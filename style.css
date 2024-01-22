@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: BoschSansCHS-Regular;
+    src: url('/fontes/BoschSans-Complete/boschsans-v5_003/fonts-woff2/BoschSans-Medium-v5_003.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: BoschSansCHS-Light;
+    src: url('/fontes/BoschSans-Complete/boschsans-v5_003/fonts-woff2/BoschSans-Light-v5_003.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: BoschSansCHS-bold;
+    src: url('/fontes/BoschSans-Complete/boschsans-v5_003/fonts-woff2/BoschSans-Bold-v5_003.woff2') format('woff2');
+  }
+  
+  body {
+    height: 100%;
+    background-color: #e7e7e7;
+    font-family: BoschSansCHS-Regular;
+    color: black;
+    width: auto;
+    overflow-x: hidden;
+  }
+
+  header{
+    padding: 0;
+    margin: 0;
+  }
+
+  nav{
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-components{
+    background-color: #ffff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .div-logoUVA{
+    margin-left: 20px;
+  }
+
+  .div-logoUVA img{
+    height: 25px
+  }
+
+  .div-headerlinks, .navbar-collapse{
+    display: flex;
+    margin-right: 20px;
+    gap: 40px;
+    font-family: BoschSansCHS-bold;
+  }
+
+  .navbar-collapse a{
+    text-decoration: none;
+    color: #5B5B5B;
+    font-size: 20px;
+  }
+
+  .div-oqueeh{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-top: 40px;
+    gap: 10px;
+  }
+
+  .div-oqueeh img{
+    width: 50rem;
+  }
+
+  .texto-oque{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 700px;
+  }
+
+  .titulo1{
+    color: #70259E;
+    font-family: BoschSansCHS-bold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .paragrafo1{
+    color: #5B5B5B;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media (max-width: 1115px) {
+  .div-oqueeh {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .div-oqueeh img{
+    margin: 0;
+    padding: 0;
+    width: 120%;
+  }
+
+  .titulo1{
+    font-size: 28px;
+  }
+
+  .paragrafo1{
+    font-size: 17px;
+  }
+}
+
+.div-mudancas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 110px;
+  height: 35rem;
+  background-color: #7623DF;
+}
+
+.text-mudancas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    margin: 3rem;
+    max-width: 600px;
+}
+
+.titulo2{
+    color: #ffffff;    
+    font-family: BoschSansCHS-bold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.paragrafo2{
+    color: #BFBFBF;    
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mudancas-icones{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 90px;
+  margin: 3rem;
+}
+
+.mudancas-icones img{
+  height: 90px;
+}
+
+.div-iconsmudanca{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.div-iconsmudanca p{
+  color: #EFEFEF;
+  font-family: BoschSansCHS-bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (max-width: 1115px) {
+  .div-mudancas{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+  }
+
+  .titulo2{
+    font-size: 28px;
+  }
+
+  .paragrafo2{
+    font-size: 17px;
+  }
+}
+
+.div-intuitiva{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8rem;
+}
+.div-intuitiva img{
+  height: 26rem;
+}
+
+.text-intuitiva{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  max-width: 600px;
+}
+
+.text3{
+  color: #70259E;
+  text-align: center;
+  font-family: BoschSansCHS-bold;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.paragrafo3{
+  color: #5B5B5B;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+@media (max-width: 1115px) {
+  .div-intuitiva{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      margin: 1.3rem;
+      margin-top: 5rem;
+  }
+
+  .div-intuitiva img{
+    height: 14rem;
+    margin-bottom: 65px;
+  }
+
+  .text3{
+    font-size: 28px;
+  }
+
+  .paragrafo3{
+    font-size: 17px;
+  }
+}
+
+.div-tecnologias{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+.div-tecnologias img{
+  height: 26rem;
+}
+
+.text-tecnologias{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  max-width: 700px;
+}
+
+.text3{
+  color: #70259E;
+  text-align: center;
+  font-family: BoschSansCHS-bold;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.paragrafo3{
+  color: #5B5B5B;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+@media (max-width: 1115px) {
+  .div-tecnologias{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      margin: 1.3rem;
+  }
+
+  .div-tecnologias img{
+    width: 120%;
+  }
+
+  .text3{
+    font-size: 28px;
+  }
+
+  .paragrafo3{
+    font-size: 17px;
+  }
+}
+
+.div-grupo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+}
+.div-grupo img{
+  height: 43rem;
+}
+
+.text-grupo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  max-width: 600px;
+}
+
+.text3{
+  color: #70259E;
+  text-align: center;
+  font-family: BoschSansCHS-bold;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.paragrafo3{
+  color: #5B5B5B;
+text-align: center;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.equipeUVA{
+  display: flex;
+  gap: 10px;
+  font-family: BoschSansCHS-bold;
+  font-size: 20px;
+}
+
+.paragrafo4{
+  color: #5B5B5B;
+  font-family: BoschSansCHS-bold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (max-width: 1115px) {
+  .div-grupo{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      margin: 1.3rem;
+  }
+
+  .div-grupo img{
+    width: 130%;
+    height: 130%;
+  }
+
+  .text3{
+    font-size: 28px;
+  }
+
+  .paragrafo4{
+    font-size: 16.2px;
+  }
+
+  .equipeUVA{
+    font-size: 16.2px;
+  }
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer hr{
+  margin: 15px;
+  width: 80%;
+  height: 4px;
+  background-color: #00000000;
+  color: black;
+}
+
+.footer-content img{
+  height: 40px;
+}
+
+.footer-content p{
+  color: #5B5B5B;
+  text-align: center;
+  font-family: BoschSansCHS-bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  gap: 50rem;
+}
+
+.ul-grupo{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.ul-grupo li{
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.front{
+  background-color: #DD0CFA;
+}
+
+.back{
+  background-color: #8E30EB;
+}
+
+.data{
+  background-color: #4E4CDF;
+}
+
+.ul-grupo li a{
+  color: #ffffff;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: BoschSansCHS-bold;
+  font-size: 16px;
+  height: 50px;
+}
+
+#offcanvasNavbar {
+  padding: 20px;
+}
+
+#offcanvasNavbar a{
+  font-family: BoschSansCHS-bold;
+}
+
+@media (max-width: 1115px) {
+  #offcanvasNavbar {
+    width: 70%;
+  }
+}
