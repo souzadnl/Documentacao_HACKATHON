@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content= "width=device-width, user-scalable=no, initial-scale=.8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
@@ -14,7 +15,7 @@
         <nav class="navbar bg-body-tertiary" id="navbar-estilizada">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="./img/boschUVALogo.jpg" alt="Bosch Uva Logo" style="width: 144px;">
+                <img src="./img/boschUVALogo.jpg" alt="Bosch Uva Logo" style="width: 200px;">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,13 +30,13 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">O que é?</a>
+                      <a class="nav-link active" aria-current="page" href="#oquee">O que é?</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Como funciona?</a>
+                      <a class="nav-link" href="#comofunciona">Como funciona?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Equipe</a>
+                        <a class="nav-link" href="#gruponois">Equipe</a>
                       </li>
                   </ul>
                 </div>
@@ -50,8 +51,10 @@
             <div class="texto-oque flex-1 flex-col xl:px-0 sm:px-16 px-6">
                 <h1 class="titulo1">Uma forma segura e fácil de realizar provas</h1>
                 <p class="paragrafo1">Nossa plataforma oferece uma forma tranquila e descomplicada para a realização e correção de provas, garantindo a segurança dos dados e  uma avaliação sem preocupações</p>
+                <a href="documentacao.docx" class="baixarDocumentação" download="documentacao">Baixe nossa Documentação!</a>
             </div>
             <img src="img/deitarImagemHome.png" alt="">
+            
         </div>
     </section>
 
@@ -75,6 +78,7 @@
                     <img src="img/starIcon.png" alt="">
                     <p>Interface intuitiva e com indentidade </p>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -91,7 +95,7 @@
 
     <section>
         <div class="div-tecnologias flex-1 flex-col xl:px-0 sm:px-16 px-6">
-            <div class="text-tecnologias">
+            <div class="text-tecnologias" id="comofunciona">
                 <h1 class="text3">Meios utilizados</h1>
                 <p class="paragrafo3">A plataforma foi feita utilizando técnologias atuais para proporcionar uma experiência excepcional aos usuários,a integração dessas tecnologias reforçam nosso foco em oferecer uma experiência online eficiente e atualizada</p>
             </div>
@@ -100,22 +104,20 @@
     </section>
 
     <section>
-        <div class="div-grupo flex-1 flex-col xl:px-0 sm:px-16 px-6">
+        <div class="div-grupo flex-1 flex-col xl:px-0 sm:px-16 px-6" id="gruponois">
             <img src="img/fotoGrupo.png" alt="">
             <div class="text-grupo">
                 <h1 class="text3">Conheça nossa equipe!</h1>
                 <p class="paragrafo3">Queremos expressar nossa sincera gratidão pela oportunidade de apresentar este projeto a você. Seu envolvimento e interesse são fundamentais para o nosso sucesso.</p>
-                <div class="equipeUVA">
-                    <p class="paragrafo4">Um agradecimento<p style="color: #D704F7;"> U</p> <p style="color: #972EEE;"> V</p> <p style="color: #6D41E7;"> A</p></p>
-                </div>
-                <ul class="ul-grupo">
-                    <li class="front"><a href="www.linkedin.com/in/gabriel-oliveira-jordão-36a8b0257">Gabriel Oliveira Jordão <br> Front End</a></li>
-                    <li class="front"><a href="https://www.linkedin.com/in/daniel-souza-980921241/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Daniel de Souza Alves <br> Front End</a></li>
-                    <li class="back"><a href="https://www.linkedin.com/in/marcelorrodrigues/">Marcerlo Ruys Rodrigues <br> Back End</a></li>
-                    <li class="back"><a href="https://www.linkedin.com/in/igorbedon/">Igor Bedon de Sousa <br> Back End</a></li>
-                    <li class="data"><a href="https://www.linkedin.com/in/vinicius-lira-124575257/">Vinicius Teixeira Lira <br> Data Science</a></li>
-                    <li class="data"><a href="https://www.linkedin.com/in/davi-lima-4695b3211/">Davi Fernando Lima <br> Data Science</a></li>
+                <ul class="ul-grupo" id="ulClick">
+                    <li class="front"><a href="www.linkedin.com/in/gabriel-oliveira-jordão-36a8b0257">Gabriel Oliveira Jordão <br> Front End Developer</a></li>
+                    <li class="front"><a href="https://www.linkedin.com/in/daniel-souza-980921241/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Daniel de Souza Alves <br> Front End Developer</a></li>
+                    <li class="back"><a href="https://www.linkedin.com/in/marcelorrodrigues/">Marcerlo Ruys Rodrigues <br> Back End Developer</a></li>
+                    <li class="back"><a href="https://www.linkedin.com/in/igorbedon/">Igor Bedon de Sousa <br> Back End Developer</a></li>
+                    <li class="data"><a href="https://www.linkedin.com/in/vinicius-lira-124575257/">Vinicius Teixeira Lira <br> Data Science Developer</a></li>
+                    <li class="data"><a href="https://www.linkedin.com/in/davi-lima-4695b3211/">Davi Fernando Lima <br> Data Science Developer</a></li>
                 </ul>
+                
             </div>
 
         </div>
